@@ -46,7 +46,8 @@ const Work = () => {
       <Card.Body>
         <Card.Title>IEP Accommodation Resources</Card.Title>
         <Card.Text>
-          A website that includes IEP Accommodations and an openAI chatgpt interface acting as a teacher to answer any questions.
+          A website that includes IEP Accommodations and an openAI chatgpt interface acting as a teacher to answer any questions.<br />
+          This is a full stack web application hosted with Sanity.
         </Card.Text>
         <Button backgroundColor="#F08080"  variant="primary" href="https://accommodation-resources.com/#/"
         target="_blank">IEP Accommodation Resources</Button>
@@ -62,7 +63,8 @@ const Work = () => {
       <Card.Body>
         <Card.Title>Social Dojo</Card.Title>
         <Card.Text>
-          A social media app for teachers and students to access learning and teaching resources.
+          A social media app for teachers and students to access learning and teaching resources.<br />
+          This is a full stack web application hosted with server created on heroku.
         </Card.Text>
         <Button backgroundColor="#F08080"  variant="primary" href="https://social-dojo.netlify.app"
         target="_blank">Social Dojo</Button>
