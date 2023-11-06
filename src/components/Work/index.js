@@ -2,8 +2,7 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container';  
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -41,7 +40,7 @@ const Work = () => {
         <Row className='cards'>
         <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black' }}>
       <Card.Img variant="top" 
-      src="https://www.letsgolearn.com/wp-content/uploads/2023/02/KidsinComputerLab_30851787sm.jpg"
+      src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWNhZGVtaWNzfGVufDB8fDB8fHww"
        />
       <Card.Body>
         <Card.Title>IEP Accommodation Resources</Card.Title>
@@ -70,6 +69,22 @@ const Work = () => {
         </Card.Text>
         <Button backgroundColor="#F08080"  variant="primary" href="https://social-dojo.netlify.app"
         target="_blank">Social Dojo</Button>
+      </Card.Body>
+      
+    </Card>
+    </Row>
+    <Row className='cards'>
+        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black' }}>
+      <Card.Img variant="top" 
+      src="https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?auto=format&fit=crop&q=80&w=2815&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+       />
+      <Card.Body>
+        <Card.Title>S.T.O.R.T.E</Card.Title>
+        <Card.Text>
+          Handy man website built for local handyman that supports our school and community.
+        </Card.Text>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://storte.netlify.app"
+        target="_blank">S.T.O.R.T.E</Button>
       </Card.Body>
       
     </Card>
