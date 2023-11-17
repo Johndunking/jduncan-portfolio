@@ -41,6 +41,12 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color="#17202A" />
 
             </NavLink>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-duncan-a79739242/">
+          <FontAwesomeIcon icon={faLinkedin} color="#17202A" />
+        </a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/Johndunking">
+          <FontAwesomeIcon icon={faGithub} color="#17202A" />
+        </a>
             <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
@@ -48,20 +54,6 @@ const Sidebar = () => {
           size="3x"
           className='close-icon' />
         </nav>
-        <ul>
-            <li>
-                <a target="_blank" 
-                rel="noreferrer" 
-                href="https://www.linkedin.com/in/john-duncan-a79739242/">
-                    <FontAwesomeIcon icon={faLinkedin} color="#17202A" />
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="noreferrer" href="https://github.com/Johndunking">
-                    <FontAwesomeIcon icon={faGithub} color="#17202A" />
-                </a>
-            </li>
-        </ul>
         <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
           icon={faBars}

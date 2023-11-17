@@ -38,7 +38,7 @@ const Work = () => {
         <Row className='px-5 py-4'>
         </Row>
         <Row className='cards'>
-        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black' }}>
+        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
       <Card.Img variant="top" 
       src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWNhZGVtaWNzfGVufDB8fDB8fHww"
        />
@@ -56,7 +56,7 @@ const Work = () => {
     </Card>
     </Row>
     <Row className='cards'>
-        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black' }}>
+        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
       <Card.Img variant="top" 
       src="https://www.classdojo.com/static/cdb0e0cf08f67fed08f35fe80cec04c3/about-image.svg"
        />
@@ -74,7 +74,7 @@ const Work = () => {
     </Card>
     </Row>
     <Row className='cards'>
-        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black' }}>
+        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
       <Card.Img variant="top" 
       src="https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?auto=format&fit=crop&q=80&w=2815&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
        />
