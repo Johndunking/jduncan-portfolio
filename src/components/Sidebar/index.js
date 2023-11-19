@@ -41,10 +41,10 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color="#17202A" />
 
             </NavLink>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-duncan-a79739242/">
+            <a activeclassname="active" className="linkedin-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-duncan-a79739242/">
           <FontAwesomeIcon icon={faLinkedin} color="#17202A" />
         </a>
-        <a target="_blank" rel="noreferrer" href="https://github.com/Johndunking">
+        <a activeclassname="active" className="github-link" target="_blank" rel="noreferrer" href="https://github.com/Johndunking">
           <FontAwesomeIcon icon={faGithub} color="#17202A" />
         </a>
             <FontAwesomeIcon 

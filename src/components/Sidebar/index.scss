@@ -91,6 +91,16 @@
           content: 'WORK';
         }
       }
+      a.linkedin-link {
+        &:after {
+          content: 'LINKEDIN';
+          }
+      }
+      a.github-link {
+        &:after {
+          content: 'GITHUB';
+          }
+      }
 
       a.active {
         svg{
