@@ -88,6 +88,16 @@ const Work = () => {
       </Card.Body>
       
     </Card>
+    <Card style={{ width: '38rem', backgroundColor: 'white', color:'black', transition: 'transform 0.3s'  }}>
+      <Card.Img variant="top" src="https://mathworksheetsgenerator.netlify.app/static/media/logo.d40992fa3b94872e2e0c.png" />
+      <Card.Body>
+        <Card.Title>Math worksheet generator</Card.Title>
+        <Card.Text>
+          An addition, subtraction, multiplication and division math worksheet generator created with react.
+        </Card.Text>
+        <Button variant="primary" href='https://mathworksheetsgenerator.netlify.app/'>Math Worksheets</Button>
+      </Card.Body>
+    </Card>
     </Row>
     </Container>
     </div>
