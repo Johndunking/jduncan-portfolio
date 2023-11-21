@@ -88,6 +88,8 @@ const Work = () => {
       </Card.Body>
       
     </Card>
+    </Row>
+    <Row className='cards'>
     <Card className='hover-card' style={{ width: '38rem', backgroundColor: 'white', color:'black', transition: 'transform 0.3s'  }}>
       <Card.Img variant="top" src="https://mathworksheetsgenerator.netlify.app/static/media/logo.d40992fa3b94872e2e0c.png" />
       <Card.Body>
