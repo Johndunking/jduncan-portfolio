@@ -102,6 +102,22 @@ const Work = () => {
       
     </Card>
     </Row>
+    <Row className='cards'>
+        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
+      <Card.Img variant="top" 
+      src={simform}
+       />
+      <Card.Body>
+        <Card.Title>Letter and number tracing game</Card.Title>
+        <Card.Text>
+         Tracing game built with phaser framework which allows studsents to practice tracing their numbers and letters.< br/> Each letter is read before students begin tracing to increase letter recognition. < br/>
+        </Card.Text>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://tracinggame.netlify.app"
+        target="_blank">Tracing game</Button>
+      </Card.Body>
+      
+    </Card>
+    </Row>
     </Container>
     </div>
          
