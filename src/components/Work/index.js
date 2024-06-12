@@ -105,7 +105,7 @@ const Work = () => {
     <Row className='cards'>
         <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
       <Card.Img variant="top" 
-      src={simform}
+      src="https://www.freebiefindingmom.com/wp-content/uploads/2021/02/free_printable_colorful_cartoon_letters_alphabet.jpg"
        />
       <Card.Body>
         <Card.Title>Letter and number tracing game</Card.Title>
@@ -114,6 +114,22 @@ const Work = () => {
         </Card.Text>
         <Button backgroundColor="#F08080"  variant="primary" href="https://tracinggame.netlify.app"
         target="_blank">Tracing game</Button>
+      </Card.Body>
+      
+    </Card>
+    </Row>
+    <Row className='cards'>
+        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
+      <Card.Img variant="top" 
+      src='https://static.vecteezy.com/system/resources/previews/027/242/015/original/oak-tree-autumn-tree-isolated-ai-generated-png.png'
+       />
+      <Card.Body>
+        <Card.Title>Leaf counting </Card.Title>
+        <Card.Text>
+         Basic leaf counting game to support students in counting from 1 - 20< br/> The application counts with the student as they pick each leaf < br/>
+        </Card.Text>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://leafcounting.netlify.app"
+        target="_blank">Leaf counting game</Button>
       </Card.Body>
       
     </Card>
