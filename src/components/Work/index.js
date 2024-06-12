@@ -102,22 +102,6 @@ const Work = () => {
       
     </Card>
     </Row>
-    <Row className='cards'>
-        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
-      <Card.Img variant="top" 
-      src="https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?auto=format&fit=crop&q=80&w=2815&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-       />
-      <Card.Body>
-        <Card.Title>HandyDude</Card.Title>
-        <Card.Text>
-         Handyman website template built for small businesses. <br /> I can personalize logo, images and add additional features! < br/> Please reach out if interested!
-        </Card.Text>
-        <Button backgroundColor="#F08080"  variant="primary" href="https://handydude.netlify.app"
-        target="_blank">HandyDude</Button>
-      </Card.Body>
-      
-    </Card>
-    </Row>
     </Container>
     </div>
          

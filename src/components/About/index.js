@@ -26,24 +26,17 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I am an ambitious full stack developer looking for a team to 
-                    collaborate and grow with! 
-                    As an education specialist I strive to learn something new from each day and every experience.
-                    Coming from a teaching background, I have alot of experience in working with teams and understand that in receiving criticism,
-                    suggestions or feedback it is essential to assume positive intent to foster the most effective collaboration.
-                    As a full stack developer I will always leverage my data analysis, communication and collaborative problem solving skills to best support the team!
+                    It is my goal to leverage technology in the classroom to accommodate the needs of all scholars. I am eager to further my knowledge in education technology so i can provide scholars and their families with unique tools to best support them in achievinfg academic success and excellence.
 
                 </p>
                 <p>
-                    I have a strong passion for programming and would
+                    I have a strong passion for education and programming and would
                     value the oppurtunity to work on diverse and challenging 
-                    projects.
-                    Currently, I enjoy utilizing frameworks like react and angular with packages like tailwind css, bootstrap and gsap to creatively solve problems
-                    and create modern designs for web apps.
+                    projects that extend my knowledge in education technology.
                 </p>
                 <p>
                     As a lifelong learner with a creative and open mindset,
-                    my goal in programming is to continue learning new languages, frameworks and best practices in fullstack development!
+                    my goal in education technology is to create unique applications and tools to support the diverse needs of all scholars.
                 </p>
 
             </div>

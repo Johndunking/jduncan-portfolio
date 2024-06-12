@@ -51,9 +51,7 @@ const Contact = () => {
                 />
                 </h1>
                 <p>
-                    I am interested in any and all oppurtunities. 
-                    I am looking to gain as much experience as possible. 
-                    Please reach out if you have any questions or requests. 
+                    I am interested in education technology professional development and carreer oppurtunities. Please reach out if you have any requests or questions.
                 </p>
                 <div className='contact-form'>
                     <form ref={refForm} onSubmit={sendEmail}>
