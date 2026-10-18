@@ -48,41 +48,23 @@ const Work = () => {
         <Card.Text>
           A website that includes IEP Accommodations and an openAI chatgpt interface acting as a teacher to answer any questions.<br />
           I created this web app to provide parents of my students digital access to IEP Accommodations they can use to support their children. <br />
-          This is a full stack web application hosted with Heroku.
+          A full stack React and Node application. Source code available on GitHub.
         </Card.Text>
-        <Button backgroundColor="#F08080"  variant="primary" href="https://accommodation-resources.com/#/"
-        target="_blank">IEP Accommodation Resources</Button>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://github.com/Johndunking/accommodation-resources"
+        target="_blank" rel="noopener noreferrer">View source on GitHub</Button>
       </Card.Body>
-      
-    </Card>
-    </Row>
-    <Row className='cards'>
-        <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
-      <Card.Img variant="top" 
-      src="https://www.classdojo.com/static/cdb0e0cf08f67fed08f35fe80cec04c3/about-image.svg"
-       />
-      <Card.Body>
-        <Card.Title>Social Dojo</Card.Title>
-        <Card.Text>
-          A social media app for teachers and students to access learning and teaching resources.<br />
-          This is a social media platform designed to provide a professional community and resources for students and teachers. <br />
-          This is a full stack web application hosted with Sanity.
-        </Card.Text>
-        <Button backgroundColor="#F08080"  variant="primary" href="https://social-dojo.netlify.app"
-        target="_blank">Social Dojo</Button>
-      </Card.Body>
-      
+
     </Card>
     </Row>
     <Row className='cards'>
     <Card className='hover-card' style={{ width: '38rem', backgroundColor: 'white', color:'black', transition: 'transform 0.3s'  }}>
-      <Card.Img variant="top" src="https://mathworksheetsgenerator.netlify.app/static/media/logo.d40992fa3b94872e2e0c.png" />
       <Card.Body>
         <Card.Title>Math worksheet generator</Card.Title>
         <Card.Text>
           An addition, subtraction, multiplication and division math worksheet generator created with react.
         </Card.Text>
-        <Button variant="primary" href='https://mathworksheetsgenerator.netlify.app/'>Math Worksheets</Button>
+        <Button variant="primary" href='https://github.com/Johndunking/mathworksheets'
+        target="_blank" rel="noopener noreferrer">View source on GitHub</Button>
       </Card.Body>
     </Card>
     </Row>
@@ -96,40 +78,34 @@ const Work = () => {
         <Card.Text>
          SIM form built using ReactJS <br /> Answer questions about student behaviors. < br/> Answers are scored to generate the appropriate resources to support student behaviors.
         </Card.Text>
-        <Button backgroundColor="#F08080"  variant="primary" href="https://simsform.netlify.app"
-        target="_blank">SIM Form</Button>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://github.com/Johndunking/sims-form"
+        target="_blank" rel="noopener noreferrer">View source on GitHub</Button>
       </Card.Body>
       
     </Card>
     </Row>
     <Row className='cards'>
         <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
-      <Card.Img variant="top" 
-      src="https://www.freebiefindingmom.com/wp-content/uploads/2021/02/free_printable_colorful_cartoon_letters_alphabet.jpg"
-       />
       <Card.Body>
         <Card.Title>Letter and number tracing game</Card.Title>
         <Card.Text>
          Tracing game built with phaser framework which allows studsents to practice tracing their numbers and letters.< br/> Each letter is read before students begin tracing to increase letter recognition. < br/>
         </Card.Text>
-        <Button backgroundColor="#F08080"  variant="primary" href="https://tracinggame.netlify.app"
-        target="_blank">Tracing game</Button>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://github.com/Johndunking/character-tracing2"
+        target="_blank" rel="noopener noreferrer">View source on GitHub</Button>
       </Card.Body>
       
     </Card>
     </Row>
     <Row className='cards'>
         <Card className='hover-card' style={{ width: '38rem',backgroundColor: 'white', color:'black', transition: 'transform 0.3s' }}>
-      <Card.Img variant="top" 
-      src='https://static.vecteezy.com/system/resources/previews/027/242/015/original/oak-tree-autumn-tree-isolated-ai-generated-png.png'
-       />
       <Card.Body>
         <Card.Title>Leaf counting </Card.Title>
         <Card.Text>
          Basic leaf counting game to support students in counting from 1 - 20< br/> The application counts with the student as they pick each leaf < br/>
         </Card.Text>
-        <Button backgroundColor="#F08080"  variant="primary" href="https://leafcounting.netlify.app"
-        target="_blank">Leaf counting game</Button>
+        <Button backgroundColor="#F08080"  variant="primary" href="https://github.com/Johndunking/leaf-counter"
+        target="_blank" rel="noopener noreferrer">View source on GitHub</Button>
       </Card.Body>
       
     </Card>
