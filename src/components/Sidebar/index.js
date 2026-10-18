@@ -41,7 +41,7 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color="#17202A" />
 
             </NavLink>
-            <a activeclassname="active" className="linkedin-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/john-duncan-a79739242/">
+            <a activeclassname="active" className="linkedin-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/johndunking/">
           <FontAwesomeIcon icon={faLinkedin} color="#17202A" />
         </a>
         <a activeclassname="active" className="github-link" target="_blank" rel="noreferrer" href="https://github.com/Johndunking">
