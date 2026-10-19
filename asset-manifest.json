@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jduncan-portfolio/static/css/main.2edbb4fc.css",
-    "main.js": "/jduncan-portfolio/static/js/main.06961204.js",
+    "main.css": "/jduncan-portfolio/static/css/main.d5c7d84b.css",
+    "main.js": "/jduncan-portfolio/static/js/main.d79f74de.js",
     "static/js/787.df848331.chunk.js": "/jduncan-portfolio/static/js/787.df848331.chunk.js",
     "static/media/simform.jpg": "/jduncan-portfolio/static/media/simform.07c27c2f647692581cfe.jpg",
     "static/media/helvetica-neu.ttf": "/jduncan-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,12 +9,12 @@
     "static/media/j.png": "/jduncan-portfolio/static/media/j.caad2b82a6d3a54b3cdf.png",
     "static/media/CoolveticaRg-Regular.woff2": "/jduncan-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/jduncan-portfolio/index.html",
-    "main.2edbb4fc.css.map": "/jduncan-portfolio/static/css/main.2edbb4fc.css.map",
-    "main.06961204.js.map": "/jduncan-portfolio/static/js/main.06961204.js.map",
+    "main.d5c7d84b.css.map": "/jduncan-portfolio/static/css/main.d5c7d84b.css.map",
+    "main.d79f74de.js.map": "/jduncan-portfolio/static/js/main.d79f74de.js.map",
     "787.df848331.chunk.js.map": "/jduncan-portfolio/static/js/787.df848331.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2edbb4fc.css",
-    "static/js/main.06961204.js"
+    "static/css/main.d5c7d84b.css",
+    "static/js/main.d79f74de.js"
   ]
 }
