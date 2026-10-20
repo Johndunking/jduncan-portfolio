@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="Reconstruction of a generated support-staff schedule: five staff rows across six periods, each cell holding a group and room assignment. All names, groups and rooms are invented.">
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text x="40" y="48" font-size="27" font-weight="600" fill="#17202A">What the scheduling engine produces</text>
+  <text x="40" y="78" font-size="14" fill="#8a8a8a">A reconstruction, not a screenshot. Every person, group and room below is invented for this illustration.</text>
+  <rect x="40" y="98" width="258" height="26" rx="3" fill="#fff4f4" stroke="#F08080" stroke-width="1"/>
+  <text x="52" y="116" font-size="10.5" letter-spacing="1.3" fill="#F08080">FICTIONAL DATA &#183; ILLUSTRATION ONLY</text>
+
+  <!-- header row -->
+  <rect x="40" y="152" width="1120" height="46" fill="#f4f6f7"/>
+  <text x="56" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">SUPPORT STAFF</text>
+  <text x="302" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">PERIOD 1</text>
+  <text x="452" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">PERIOD 2</text>
+  <text x="602" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">PERIOD 3</text>
+  <text x="752" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">PERIOD 4</text>
+  <text x="902" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">PERIOD 5</text>
+  <text x="1052" y="181" font-size="11.5" letter-spacing="1.4" fill="#5d6d7e">PERIOD 6</text>
+
+  <!-- rows -->
+  <g font-size="13" fill="#17202A">
+    <rect x="40" y="198" width="1120" height="72" fill="#ffffff"/>
+    <text x="56" y="232" font-size="14" font-weight="600">A. Rivera</text>
+    <text x="56" y="252" font-size="11" fill="#8a8a8a">Instructional aide</text>
+    <text x="302" y="232">Gr 3 reading</text><text x="302" y="251" font-size="11" fill="#8a8a8a">Rm 12 &#183; small group</text>
+    <text x="452" y="232">Gr 3 reading</text><text x="452" y="251" font-size="11" fill="#8a8a8a">Rm 12 &#183; small group</text>
+    <text x="602" y="232" fill="#b5b5b5">&#8212;</text>
+    <text x="752" y="232">Gr 4 writing</text><text x="752" y="251" font-size="11" fill="#8a8a8a">Rm 7 &#183; push-in</text>
+    <text x="902" y="232">Gr 4 writing</text><text x="902" y="251" font-size="11" fill="#8a8a8a">Rm 7 &#183; push-in</text>
+    <text x="1052" y="232" fill="#b5b5b5">&#8212;</text>
+
+    <rect x="40" y="270" width="1120" height="72" fill="#fbfbfb"/>
+    <text x="56" y="304" font-size="14" font-weight="600">M. Okafor</text>
+    <text x="56" y="324" font-size="11" fill="#8a8a8a">Instructional aide</text>
+    <text x="302" y="304">Gr 1 phonics</text><text x="302" y="323" font-size="11" fill="#8a8a8a">Rm 4 &#183; small group</text>
+    <text x="452" y="304">Gr 1 phonics</text><text x="452" y="323" font-size="11" fill="#8a8a8a">Rm 4 &#183; small group</text>
+    <text x="602" y="304">Gr 2 phonics</text><text x="602" y="323" font-size="11" fill="#8a8a8a">Rm 4 &#183; small group</text>
+    <text x="752" y="304" fill="#b5b5b5">&#8212;</text>
+    <text x="902" y="304">Gr 2 maths</text><text x="902" y="323" font-size="11" fill="#8a8a8a">Rm 9 &#183; push-in</text>
+    <text x="1052" y="304">Gr 2 maths</text><text x="1052" y="323" font-size="11" fill="#8a8a8a">Rm 9 &#183; push-in</text>
+
+    <rect x="40" y="342" width="1120" height="72" fill="#ffffff"/>
+    <text x="56" y="376" font-size="14" font-weight="600">T. Lindqvist</text>
+    <text x="56" y="396" font-size="11" fill="#8a8a8a">Co-teaching partner</text>
+    <text x="302" y="376" fill="#b5b5b5">&#8212;</text>
+    <text x="452" y="376">Gr 5 maths</text><text x="452" y="395" font-size="11" fill="#8a8a8a">Rm 15 &#183; co-taught</text>
+    <text x="602" y="376">Gr 5 maths</text><text x="602" y="395" font-size="11" fill="#8a8a8a">Rm 15 &#183; co-taught</text>
+    <text x="752" y="376">Gr 5 maths</text><text x="752" y="395" font-size="11" fill="#8a8a8a">Rm 15 &#183; co-taught</text>
+    <text x="902" y="376" fill="#b5b5b5">&#8212;</text>
+    <text x="1052" y="376">Planning</text><text x="1052" y="395" font-size="11" fill="#8a8a8a">protected block</text>
+
+    <rect x="40" y="414" width="1120" height="72" fill="#fbfbfb"/>
+    <text x="56" y="448" font-size="14" font-weight="600">J. Bauer</text>
+    <text x="56" y="468" font-size="11" fill="#8a8a8a">Behaviour support</text>
+    <text x="302" y="448">Gr 2 check-in</text><text x="302" y="467" font-size="11" fill="#8a8a8a">Rm 6 &#183; 1:1</text>
+    <text x="452" y="448" fill="#b5b5b5">&#8212;</text>
+    <text x="602" y="448">Gr 4 check-in</text><text x="602" y="467" font-size="11" fill="#8a8a8a">Rm 7 &#183; 1:1</text>
+    <text x="752" y="448">Gr 4 check-in</text><text x="752" y="467" font-size="11" fill="#8a8a8a">Rm 7 &#183; 1:1</text>
+    <text x="902" y="448">Transition</text><text x="902" y="467" font-size="11" fill="#8a8a8a">yard &#183; coverage</text>
+    <text x="1052" y="448">Gr 2 check-in</text><text x="1052" y="467" font-size="11" fill="#8a8a8a">Rm 6 &#183; 1:1</text>
+
+    <rect x="40" y="486" width="1120" height="72" fill="#ffffff"/>
+    <text x="56" y="520" font-size="14" font-weight="600">P. Nakamura</text>
+    <text x="56" y="540" font-size="11" fill="#8a8a8a">Instructional aide</text>
+    <text x="302" y="520">Gr 5 reading</text><text x="302" y="539" font-size="11" fill="#8a8a8a">Rm 15 &#183; small group</text>
+    <text x="452" y="520">Gr 5 reading</text><text x="452" y="539" font-size="11" fill="#8a8a8a">Rm 15 &#183; small group</text>
+    <text x="602" y="520" fill="#b5b5b5">&#8212;</text>
+    <text x="752" y="520">Gr 1 maths</text><text x="752" y="539" font-size="11" fill="#8a8a8a">Rm 4 &#183; push-in</text>
+    <text x="902" y="520">Gr 1 maths</text><text x="902" y="539" font-size="11" fill="#8a8a8a">Rm 4 &#183; push-in</text>
+    <text x="1052" y="520">Gr 3 reading</text><text x="1052" y="539" font-size="11" fill="#8a8a8a">Rm 12 &#183; small group</text>
+  </g>
+
+  <g stroke="#e8eaec" stroke-width="1">
+    <line x1="40" y1="198" x2="1160" y2="198"/><line x1="40" y1="270" x2="1160" y2="270"/>
+    <line x1="40" y1="342" x2="1160" y2="342"/><line x1="40" y1="414" x2="1160" y2="414"/>
+    <line x1="40" y1="486" x2="1160" y2="486"/><line x1="40" y1="558" x2="1160" y2="558"/>
+    <line x1="286" y1="152" x2="286" y2="558"/><line x1="436" y1="152" x2="436" y2="558"/>
+    <line x1="586" y1="152" x2="586" y2="558"/><line x1="736" y1="152" x2="736" y2="558"/>
+    <line x1="886" y1="152" x2="886" y2="558"/><line x1="1036" y1="152" x2="1036" y2="558"/>
+  </g>
+  <rect x="40" y="152" width="1120" height="406" fill="none" stroke="#d8dbdd" stroke-width="1.2"/>
+
+  <text x="40" y="596" font-size="12.5" fill="#8a8a8a">A week of this is built from the imported instructional plans rather than assembled by hand. The engine groups students, ranks the</text>
+  <text x="40" y="616" font-size="12.5" fill="#8a8a8a">candidate placements and fills the grid; a person reviews the result and overrides it where the judgement is theirs to make.</text>
+  <text x="40" y="650" font-size="12.5" fill="#8a8a8a">The real interface renders live operational data and so is never shown. The layout above is mine; the content is not anyone&#8217;s.</text>
+</svg>

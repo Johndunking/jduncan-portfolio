@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="SPEDstack in outline: instructional plans are imported, a scheduling engine builds the week, and a validation layer separates warnings from errors that block. Built in Python and FastAPI on PostgreSQL, containerised with Docker and deployed to Google Cloud Run.">
+  <rect width="1200" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#17202A"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="56" width="340" height="186" rx="12" fill="#ffffff" stroke="#17202A" stroke-width="2.5"/>
+  <text x="210" y="134" font-size="44" font-weight="600" fill="#17202A" text-anchor="middle">Plan import</text>
+  <text x="210" y="180" font-size="27" fill="#8a8a8a" text-anchor="middle">curriculum</text>
+  <text x="210" y="213" font-size="27" fill="#8a8a8a" text-anchor="middle">and pacing</text>
+
+  <line x1="386" y1="149" x2="424" y2="149" stroke="#17202A" stroke-width="2.5" marker-end="url(#c)"/>
+
+  <rect x="430" y="56" width="340" height="186" rx="12" fill="#fffafa" stroke="#F08080" stroke-width="2.5"/>
+  <text x="600" y="134" font-size="44" font-weight="600" fill="#17202A" text-anchor="middle">Scheduling</text>
+  <text x="600" y="180" font-size="27" fill="#8a8a8a" text-anchor="middle">grouping, ranking,</text>
+  <text x="600" y="213" font-size="27" fill="#8a8a8a" text-anchor="middle">the week built</text>
+
+  <line x1="776" y1="149" x2="814" y2="149" stroke="#17202A" stroke-width="2.5" marker-end="url(#c)"/>
+
+  <rect x="820" y="56" width="340" height="186" rx="12" fill="#ffffff" stroke="#17202A" stroke-width="2.5"/>
+  <text x="990" y="134" font-size="44" font-weight="600" fill="#17202A" text-anchor="middle">Validation</text>
+  <text x="990" y="180" font-size="27" fill="#8a8a8a" text-anchor="middle">warnings, against</text>
+  <text x="990" y="213" font-size="27" fill="#8a8a8a" text-anchor="middle">errors that block</text>
+
+  <rect x="40" y="296" width="1120" height="84" rx="10" fill="#f4f6f7"/>
+  <text x="600" y="334" font-size="31" fill="#17202A" text-anchor="middle">Python &#183; FastAPI &#183; PostgreSQL &#183; Docker &#183; Google Cloud Run</text>
+  <text x="600" y="365" font-size="24" fill="#8a8a8a" text-anchor="middle">Original diagram &#183; no application data</text>
+</svg>

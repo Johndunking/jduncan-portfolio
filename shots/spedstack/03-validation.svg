@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="Reconstruction of the validation layer, showing warnings that are surfaced while the run continues alongside errors that stop the run. All examples are invented.">
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text x="40" y="48" font-size="27" font-weight="600" fill="#17202A">Warnings a person should see, errors the system refuses</text>
+  <text x="40" y="78" font-size="14" fill="#8a8a8a">A reconstruction, not a screenshot. Every example below is invented for this illustration.</text>
+  <rect x="40" y="98" width="258" height="26" rx="3" fill="#fff4f4" stroke="#F08080" stroke-width="1"/>
+  <text x="52" y="116" font-size="10.5" letter-spacing="1.3" fill="#F08080">FICTIONAL DATA &#183; ILLUSTRATION ONLY</text>
+
+  <!-- warnings -->
+  <rect x="40" y="156" width="545" height="394" rx="8" fill="#ffffff" stroke="#e8eaec" stroke-width="1.4"/>
+  <rect x="40" y="156" width="545" height="4" fill="#D9A227"/>
+  <text x="64" y="196" font-size="11.5" letter-spacing="1.6" fill="#D9A227">WARNINGS &#183; THE RUN CONTINUES</text>
+  <text x="64" y="222" font-size="12.5" fill="#8a8a8a">Surfaced for review. None of these are the system&#8217;s call to make.</text>
+  <g font-size="13.5" fill="#17202A">
+    <circle cx="72" cy="266" r="4" fill="#D9A227"/>
+    <text x="90" y="271">Week 7 pacing was resolved from the preceding week&#8217;s plan</text>
+    <text x="90" y="291" font-size="11.5" fill="#8a8a8a">No explicit entry was imported for week 7; the inference is stated rather than hidden.</text>
+
+    <circle cx="72" cy="332" r="4" fill="#D9A227"/>
+    <text x="90" y="337">Gr 4 writing has no room assigned in period 2</text>
+    <text x="90" y="357" font-size="11.5" fill="#8a8a8a">A schedule can be produced without it. Whether that is acceptable is a judgement.</text>
+
+    <circle cx="72" cy="398" r="4" fill="#D9A227"/>
+    <text x="90" y="403">Two adults are free for one group in period 5</text>
+    <text x="90" y="423" font-size="11.5" fill="#8a8a8a">Possibly deliberate, possibly a waste of a person. Flagged, not resolved.</text>
+
+    <circle cx="72" cy="464" r="4" fill="#D9A227"/>
+    <text x="90" y="469">A protected planning block was moved to fit coverage</text>
+    <text x="90" y="489" font-size="11.5" fill="#8a8a8a">Legal and schedulable, and exactly the kind of change someone should know about.</text>
+  </g>
+
+  <!-- errors -->
+  <rect x="615" y="156" width="545" height="394" rx="8" fill="#ffffff" stroke="#e8eaec" stroke-width="1.4"/>
+  <rect x="615" y="156" width="545" height="4" fill="#C0392B"/>
+  <text x="639" y="196" font-size="11.5" letter-spacing="1.6" fill="#C0392B">ERRORS &#183; THE RUN STOPS</text>
+  <text x="639" y="222" font-size="12.5" fill="#8a8a8a">States the system will not produce, however plausible the output would look.</text>
+  <g font-size="13.5" fill="#17202A">
+    <rect x="668" y="262" width="8" height="8" fill="#C0392B"/>
+    <text x="690" y="271">R. Castellanos is assigned to Rm 7 and Rm 15 in period 3</text>
+    <text x="690" y="291" font-size="11.5" fill="#8a8a8a">One person, two rooms, one period. There is no correct way to ship this.</text>
+
+    <rect x="668" y="328" width="8" height="8" fill="#C0392B"/>
+    <text x="690" y="337">The imported plan references a group that no longer exists</text>
+    <text x="690" y="357" font-size="11.5" fill="#8a8a8a">Resolving it to the nearest match would guess at something only a person knows.</text>
+
+    <rect x="668" y="394" width="8" height="8" fill="#C0392B"/>
+    <text x="690" y="403">Period 6 leaves Gr 3 reading without a required adult</text>
+    <text x="690" y="423" font-size="11.5" fill="#8a8a8a">A gap that reads as a complete schedule is worse than a refusal to produce one.</text>
+
+    <rect x="668" y="460" width="8" height="8" fill="#C0392B"/>
+    <text x="690" y="469">Two groups are scheduled into Rm 12 in period 1</text>
+    <text x="690" y="489" font-size="11.5" fill="#8a8a8a">Caught before anyone walks a group of children to a room that is already full.</text>
+  </g>
+
+  <text x="40" y="596" font-size="12.5" fill="#8a8a8a">The split is the design. A warning is information a person needs in order to decide; an error is a state the system will not emit at all,</text>
+  <text x="40" y="616" font-size="12.5" fill="#8a8a8a">because the failure mode here is not a crash. It is a schedule that looks entirely reasonable and is quietly wrong.</text>
+  <text x="40" y="650" font-size="12.5" fill="#8a8a8a">This is the logic the test suite exists for: 5,936 tests collected, 5,930 passing, 6 skipped, none failing, on 19 October 2026.</text>
+</svg>

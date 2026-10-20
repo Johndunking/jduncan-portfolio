@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" role="img" aria-label="Diagram of the SPEDstack production deployment: educators' spreadsheets feed a FastAPI command API inside a Docker image on Google Cloud Run, with Secret Manager supplying configuration and IAM-authenticated Cloud SQL holding state outside the image, and an internal interface excluded from the image entirely.">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#17202A"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="40" y="48" font-size="27" font-weight="600" fill="#17202A">SPEDstack &#8212; production deployment</text>
+  <text x="40" y="78" font-size="14" fill="#8a8a8a">Original diagram drawn for this portfolio. It contains no application data of any kind.</text>
+
+  <!-- educators -->
+  <rect x="40" y="300" width="205" height="112" rx="6" fill="#ffffff" stroke="#17202A" stroke-width="1.4"/>
+  <text x="142" y="344" font-size="17" fill="#17202A" text-anchor="middle">Educators</text>
+  <text x="142" y="370" font-size="12" fill="#8a8a8a" text-anchor="middle">entry through the spreadsheets</text>
+  <text x="142" y="388" font-size="12" fill="#8a8a8a" text-anchor="middle">they already use</text>
+  <line x1="245" y1="356" x2="312" y2="356" stroke="#17202A" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <!-- cloud run -->
+  <rect x="320" y="150" width="520" height="440" rx="10" fill="#fffafa" stroke="#F08080" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="342" y="178" font-size="11" letter-spacing="2" fill="#F08080">GOOGLE CLOUD RUN</text>
+
+  <!-- container image -->
+  <rect x="345" y="196" width="470" height="330" rx="8" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="364" y="221" font-size="10" letter-spacing="1.6" fill="#999999">CONTAINER IMAGE &#183; DOCKER</text>
+
+  <rect x="370" y="236" width="420" height="60" rx="5" fill="#ffffff" stroke="#17202A" stroke-width="1.6"/>
+  <text x="580" y="263" font-size="16" font-weight="600" fill="#17202A" text-anchor="middle">Command API &#183; FastAPI</text>
+  <text x="580" y="283" font-size="11.5" fill="#8a8a8a" text-anchor="middle">the only exposed surface</text>
+
+  <line x1="580" y1="296" x2="580" y2="308" stroke="#17202A" stroke-width="1.2"/>
+  <line x1="436" y1="308" x2="724" y2="308" stroke="#17202A" stroke-width="1.2"/>
+  <line x1="436" y1="308" x2="436" y2="322" stroke="#17202A" stroke-width="1.2" marker-end="url(#a)"/>
+  <line x1="580" y1="308" x2="580" y2="322" stroke="#17202A" stroke-width="1.2" marker-end="url(#a)"/>
+  <line x1="724" y1="308" x2="724" y2="322" stroke="#17202A" stroke-width="1.2" marker-end="url(#a)"/>
+
+  <rect x="371" y="330" width="130" height="104" rx="5" fill="#fbfbfb" stroke="#d8d8d8"/>
+  <text x="436" y="362" font-size="13" font-weight="600" fill="#17202A" text-anchor="middle">Scheduling</text>
+  <text x="436" y="379" font-size="13" font-weight="600" fill="#17202A" text-anchor="middle">engine</text>
+  <text x="436" y="402" font-size="11" fill="#8a8a8a" text-anchor="middle">grouping,</text>
+  <text x="436" y="417" font-size="11" fill="#8a8a8a" text-anchor="middle">ranking</text>
+
+  <rect x="515" y="330" width="130" height="104" rx="5" fill="#fbfbfb" stroke="#d8d8d8"/>
+  <text x="580" y="362" font-size="13" font-weight="600" fill="#17202A" text-anchor="middle">Plan import</text>
+  <text x="580" y="391" font-size="11" fill="#8a8a8a" text-anchor="middle">curriculum</text>
+  <text x="580" y="406" font-size="11" fill="#8a8a8a" text-anchor="middle">and pacing</text>
+
+  <rect x="659" y="330" width="130" height="104" rx="5" fill="#fbfbfb" stroke="#d8d8d8"/>
+  <text x="724" y="362" font-size="13" font-weight="600" fill="#17202A" text-anchor="middle">Validation</text>
+  <text x="724" y="391" font-size="11" fill="#8a8a8a" text-anchor="middle">warnings vs</text>
+  <text x="724" y="406" font-size="11" fill="#8a8a8a" text-anchor="middle">blocking errors</text>
+
+  <text x="364" y="468" font-size="11.5" fill="#8a8a8a">Trimmed runtime manifest, verified against what the service actually imports.</text>
+  <text x="364" y="487" font-size="11.5" fill="#8a8a8a">No credentials and no database travel inside the image.</text>
+
+  <!-- secret manager -->
+  <rect x="885" y="228" width="275" height="94" rx="6" fill="#ffffff" stroke="#17202A" stroke-width="1.4"/>
+  <text x="1022" y="263" font-size="15" font-weight="600" fill="#17202A" text-anchor="middle">Secret Manager</text>
+  <text x="1022" y="287" font-size="11.5" fill="#8a8a8a" text-anchor="middle">configuration supplied at deploy time,</text>
+  <text x="1022" y="303" font-size="11.5" fill="#8a8a8a" text-anchor="middle">never baked in</text>
+  <line x1="885" y1="275" x2="845" y2="275" stroke="#17202A" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <!-- cloud sql -->
+  <rect x="885" y="392" width="275" height="112" rx="6" fill="#ffffff" stroke="#17202A" stroke-width="1.4"/>
+  <text x="1022" y="427" font-size="15" font-weight="600" fill="#17202A" text-anchor="middle">Cloud SQL &#183; PostgreSQL</text>
+  <text x="1022" y="452" font-size="11.5" fill="#8a8a8a" text-anchor="middle">Access is IAM-authenticated, so there is</text>
+  <text x="1022" y="468" font-size="11.5" fill="#8a8a8a" text-anchor="middle">no connection password to rotate or leak.</text>
+  <text x="1022" y="489" font-size="11.5" fill="#8a8a8a" text-anchor="middle">Canonical state lives here, not in the image.</text>
+  <line x1="845" y1="448" x2="885" y2="448" stroke="#17202A" stroke-width="1.4" marker-end="url(#a)"/>
+  <line x1="885" y1="448" x2="845" y2="448" stroke="#17202A" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <!-- excluded surface -->
+  <rect x="345" y="622" width="470" height="96" rx="8" fill="#fafafa" stroke="#cccccc" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="580" y="653" font-size="14" font-weight="600" fill="#9a9a9a" text-anchor="middle">Internal interface &#8212; not in the image</text>
+  <text x="580" y="677" font-size="11.5" fill="#9a9a9a" text-anchor="middle">Written assuming one person working locally. That assumption lives in</text>
+  <text x="580" y="693" font-size="11.5" fill="#9a9a9a" text-anchor="middle">the code, not in the door, so a login would not have made it safe. It was</text>
+  <text x="580" y="709" font-size="11.5" fill="#9a9a9a" text-anchor="middle">excluded from the container entirely rather than secured and shipped.</text>
+  <line x1="580" y1="592" x2="580" y2="618" stroke="#cccccc" stroke-width="1.2" stroke-dasharray="4 4"/>
+</svg>
